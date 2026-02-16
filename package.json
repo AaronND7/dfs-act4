@@ -1,0 +1,43 @@
+{
+  "name": "act4-full-stack",
+  "version": "1.0.0",
+  "description": "Aplicación web full stack para gestión de productos con autenticación JWT",
+  "main": "backend/src/app.js",
+  "scripts": {
+    "start": "node backend/src/app.js",
+    "dev": "nodemon backend/src/app.js",
+    "test": "cd backend && npm test",
+    "test:coverage": "cd backend && npm run test:coverage",
+    "install:backend": "cd backend && npm install",
+    "install:all": "npm run install:backend",
+    "build": "echo 'Build completed'",
+    "deploy": "cd backend && vercel --prod"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "crud",
+    "full-stack",
+    "authentication",
+    "products-management"
+  ],
+  "author": "Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/act4-full-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/act4-full-stack/issues"
+  },
+  "homepage": "https://github.com/your-username/act4-full-stack#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
